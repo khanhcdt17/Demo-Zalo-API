@@ -1,4 +1,4 @@
-package com.abc.demov1;
+package com.abc.myapplication;
 
 import org.junit.Test;
 

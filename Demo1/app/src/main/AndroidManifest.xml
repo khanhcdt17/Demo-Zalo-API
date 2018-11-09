@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abc.demov1">
+    package="com.abc.myapplication">
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -29,11 +29,9 @@
             android:screenOrientation="portrait">
 
         </activity>
+        <meta-data
+            android:name="appID"
+            android:value="@string/app_ID" />
     </application>
-
-
-    <meta-data
-        android:name="appID"
-        android:value="@string/appID" />
 
 </manifest>
